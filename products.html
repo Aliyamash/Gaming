@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Css Code/Style.css" />
+
+  <title>WebProg || products</title>
+</head>
+
+<body>
+  <!-- start navbar////////////////////////////////////////////////////////////////////////////////////////-->
+  <span class="nav-btn" id="nav-btn">
+    <i class="bi bi-list"></i>
+  </span>
+  <nav class="navbar " id="navbar">
+    <div class="navbar-header">
+      <span class="nav-close" id="nav-close"><i class="bi bi-x-circle"></i></span> 
+    </div>
+      <ul>
+        <li>
+          <a href="index.html" class="nav-link"><i class="bi bi-house-fill"></i>صفحه اصلی</a>
+        </li>
+        <li>
+          <a href="products.html" class="nav-link"><i class="bi bi-bag"></i> محصولات</a>
+        </li>
+          <li>
+          <a href="Service.html" class="nav-link"><i class="bi bi-house-fill"></i>خدمات</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-link"><i class="bi bi-info-circle"></i>درباره ما</a>
+        </li>
+        <li>
+          <a href="Countact.us.html" class="nav-link"><i class="bi bi-chat-dots"></i>تماس با ما</a>
+        </li>
+      
+      </ul>
+   
+
+  </nav>
+  <!-- end of navbar///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+  <!-- start header////////////////////////////////////////////////////////////////////////////////////////-->
+  <header class="header">
+    <div class="banner">
+      <h1>محصولات</h1>
+      <h2>
+        اینجا میتونی واسه خودت درآمد زایی داشته باشی میخوای بدونی چطوری ؟
+        <span id="btn-header">دکمه پایینو بزن</span>
+      </h2>
+      <a href="./checkprofile" class="btn btn-banner">بزن بریم</a>
+    </div>
+  </header>
+  <div class="div-cuter"></div>
+  <!-- end of header///////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- start Feature///////////////////////////////////////////////////////////////////////////////////////-->
+  <section class="section-1 clearfix">
+    <article class="article">
+      <span class="icon-article">
+        <img
+          src="data:image/png;base64,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" />
+      </span>
+      <h4 class="game-information">League Of Legends</h4>
+      <p class="game-title">تعداد اکانت : 604</p>
+      <p class="game-ranking">رنکینگ : 5.3 از 10</p>
+    </article>
+
+    <article class="article">
+      <span class="icon-article">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABGElEQVR4nO2UWwqDMBBFxR10qwUp9Ed/hCJ0q91BuaWiJdaZyeThR+k9EBBmMtwTQ5qGEEIIIYQQ8rdA5lYwb5AGVsj5APDczVQEsiS08DEBAN17RXrkmYZAkoQV3hIAcA7arrUFXBKx8JoAtuFNiRIBU8ITHkDvDK9KoFBAlDgovCiBRIFLTMII34ffa29i+J0EBMyCEXCwasHM9XvuDV4biWlZEl2WQMIV2YQPT/xrv3by92DfqPRcswSWunadYvfcIz8J+7Q/kSfgkMgN/zl5Yf9YVcCQ2IXXZnrDp0gkCQgSYnhtZkp4r0SywNI/v0KRnuLwHoksAQ+1wsck1uIJQNtUZJm5WQfMbOukJYQQQgghhDQ/ygu/EekfkEJVIgAAAABJRU5ErkJggg==" />
+      </span>
+      <h4 class="game-information">Call of Duty</h4>
+      <p class="game-title">تعداد اکانت : 5475</p>
+      <p class="game-ranking">رنکینگ : 7 از 10</p>
+    </article>
+
+    <article class="article">
+      <span class="icon-article">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACV0lEQVR4nO2Yu2sVQRTGx/gARVTEiKCgoAiCYGGhaBG0kIiLd74zTGqrVIKInQSuCFaCoH+CkkKEFIJY+GhiaaGgBB+FIohoEB/gi+gnc/cql5B7s+fubhxkfnDKe873m9nd2b3GJBKJRCLxv0Hvl4UykcChoSW6HwCPKfKc3g/WlqpolkZjDYFHFLlf/EcibBVwV21fITRmEUUm/uTRC+R1vtaUPSBwujNLvwK/6NyIWWAocoDATBUC4VL6TGBnrYk7oPcbKPJ6dg7Tt0Au8ZTerzY1w9HRpRSZnCtDOYFc4jqbzYFaBUQudptfXiCvsdrCOzfSa3Y1AsBPWnu48vDWbifwsX6BvN7T2q2Vhfd+Zfvw5EIJhJ14yCxbUYkAcLnIzGoFconx0uFFThSdV7zprANknjred3hgL4HvdQg8U+zCD4rs7yP8eoq8UizUt+LNRcYUjUO9ofcbC/f3fjGB26oZwJXiAt4vp8gDpcRkOEULLtA5Ze93YccKC7QlthH4oBx0ad6+1mats0S3+l4V/u8w4GjrbVQncaxrP5HNFJlWhr/aV/iOoReUA7/S2t1dFuSestfb0l+F4Yus29thj8EvmGXr5hC4oejzhM7tKxW+Y/Cm1mroJG6Fp42JBQIHlQdcqLMmJgicUQqEB4AzscBmc4AiN5USn2jtDhML9H5t6ybV3Q9THB5eZWKBzu3RvIS1ayL8z2NigcBJpUCoUyYmKHJNeSnN0LlDJhaYfwpOKXdhmo3GFhMLBHYR+KKUuGNigsARAi81N/S/zpxIJBIJE/gNtuhov6BnvjkAAAAASUVORK5CYII=" />
+      </span>
+      <h4 class="game-information">Valorant</h4>
+      <p class="game-title">تعداد اکانت : 547</p>
+      <p class="game-ranking">رنکینگ : 6.1 از 10</p>
+    </article>
+  </section>
+  <!-- end of Feature //////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- start products part /////////////////////////////////////////////////////////////////////////////// -->
+  <section class="products">
+    <div class="section-center clearfix">
+      <article class="products-info">
+        <div class="products-title">
+          <h3>محصولات</h3>
+          <h2>twitch gaming</h2>
+        </div>
+
+        <p class="products-text">
+          در این جا میتوانید محصولات مورد نظر خورد را مشاهده و خریداری کنید
+        </p>
+
+        <a class="btn btn-products" href="products">View product</a>
+      </article>
+
+      <article class="product-cards">
+        <div class="product">
+          <img class="product-img" src="./Image/product1.jpg" alt="product-img" />
+          <h4 class="products-title">وسایل جانبی گیمینگ</h4>
+          <h4 class="products-price"><span>$</span> 965,000</h4>
+        </div>
+
+        <div class="product">
+          <img class="product-img" src="./Image/product2.jpg" alt="product-img" />
+          <h4 class="products-title">(VAR)دستگاه</h4>
+          <h4 class="products-price"><span>$</span> 5000</h4>
+        </div>
+
+        <div class="product">
+          <img class="product-img" src="./Image/product3.jpg" alt="product-img" />
+          <h4 class="products-title">گرافیک 3080</h4>
+          <h4 class="products-price"><span>$</span> 9000</h4>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- end of products part ////////////////////////////////////////////////////////////////////////////// -->
+
+
+  <!-- start Countact us part //////////////////////////////////////////////////////////////////////////// -->
+
+  <footer class="footer clearfix">
+    <div class="section-center">
+      <div class="footer-icons">
+        <a class="footer-icon" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="footer-icon" href="#"><i class="bi bi-telegram"></i></a>
+        <a class="footer-icon" href="#"><i class="bi bi-whatsapp"></i></a>
+
+        <h4 class="footer-text">
+          کلیه حقوق این سایت نزد علی اشرفی محفوظ است و هرگونه کپی برداری پیگرد قانونی دارد
+        </h4>
+      </div>
+  </footer>
+  <!-- end of Countact us part /////////////////////////////////////////////////////////////////////////// -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
